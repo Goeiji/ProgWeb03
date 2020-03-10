@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="JS/desconto.js"></script>
+    <link type="text/css" rel="stylesheet" href="CSS/style.css">
+    <title>Exercício 3</title>
+</head>
+<header class="palavra"><h1>Supermercado JS</h1></header>
+<body>
+    <label class="palavra" for="produto">Produto:</label>
+    <input class="entrada" type="text" name="produto" id="produto" placeholder="Insira aqui...">
+    <br>
+    <br>
+    <label class="palavra" for="preco">Preço R$:</label>
+    <input class="entrada" type="text" name="preco" id="preco" placeholder="Insira aqui...">
+    <br>
+    <br>
+    <label class="palavra" for="quant">Quantidade:</label>
+    <input class="entrada" type="number" min="0" max="3" name="quant" id="quant" placeholder="Insira aqui...">
+    <br>
+    <br>
+    <button class="confirmar" type="button" onclick="desconto()">Ver Promoção</button>
+</body>
+</html>
